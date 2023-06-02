@@ -5,3 +5,5 @@
 * git add -A
 * git log
 * git log --oneline
+* git show
+* git remote 
