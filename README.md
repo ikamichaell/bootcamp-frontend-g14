@@ -7,3 +7,4 @@
 * git log --oneline
 * git show
 * git remote 
+* git de modificaciones
