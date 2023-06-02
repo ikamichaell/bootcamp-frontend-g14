@@ -4,3 +4,4 @@
 * git commit -m "miprimerapage"
 * git add -A
 * git log
+* git log --oneline
