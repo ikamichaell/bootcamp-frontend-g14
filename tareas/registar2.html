@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>CREAR UNA CUENTA.</title>
+</head>
+<body>
+  <main>
+  <section class="form-registro">
+    <h4>CREA UNA CUENTA</h4>
+    <H1>ingresa la siguiente informacion para registarte</H1>
+   <div>
+    <label>
+        Nombre   <br>
+        <input class="nombre2" type="text" name="nombres2" id="nombres" placeholder="Nombres">
+      </label><label><b>  
+          <input class="apellido2" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+          
+      </label> 
+</div>
+  <label>
+   Edad <br>
+    <input class="controls" type="number" placeholder="Edad Ej. 18" name="edad" />
+  </label>
+  <label>
+        Fecha de nacimiento
+        <input class="controls" type="date" name="dia" />
+      </label>
+
+      <label> Genero 
+        <select class="controls" name="menu" id="genero">
+            <option value=""> Seleccinar</option>
+            <option value="ma"> Masculino</option>
+             <option value="cr"> Femenino</option>
+             
+        </select>
+    </label>
+    <label> Email 
+    <input class="controls" type="email" name="correo" id="correo" placeholder="email: ej. user@gmail.com">
+    </label>
+
+    <label>
+        Direccion   <br>
+        <input class="controls" type="text" name="direccion" id="direccion" placeholder="Direccion ">
+      </label>
+
+      <label>
+        
+        <input class="controls" type="text" name="direccion2" id="direccion2" placeholder="Direccion Linea 2">
+      </label>
+      <label>
+        Telefono <br>
+     <input class="controls" type="tel" name="telefono" id="telefono" placeholder="Telefono">
+     </label>
+      <label>
+        Codigo postal   <br>
+    <input class="controls" type="number" name="codpostal" id="codpostal" placeholder="Eje. 14001">
+</label>
+<label>
+    Ciudad   <br>
+    <input class="controls" type="text" name="ciudad" id="ciuadad" placeholder="Ej. chiclayo ">
+  </label>
+  <label>
+    Subir Firma
+    <input class="firma" name="firma" type="file" />
+  </label>
+  <label>
+    <input type="checkbox" class="checkbox" required="">
+    <span>Acepto los terminos, condiciones y politicas</span>
+</label>
+
+
+    
+    <input class="botons" type="submit" value="Registrarse">
+    <p>Ya tienes una cuenta <a href="#">Acceder desde aqui</a></p>
+  </section>
+</main>
+</body>
+</html>
